@@ -10,7 +10,7 @@ site_description: "这里是关于我的项目的详细文档。"
 # 仓库信息
 # ------------------
 repo_url: "https://github.com/wuuixm/Note_repository" # 您的代码仓库URL
-repo_name: "your-username/your-repo" # 显示的仓库名称
+repo_name: "wuuixm/Note_repository" # 显示的仓库名称
 edit_uri: "edit/main/docs/" # “编辑此页”的链接路径，需根据分支和文档目录调整
 
 # ------------------
@@ -24,8 +24,7 @@ copyright: "Copyright &copy; 2025 WUUIXM"
 theme:
   name: material
   language: "zh" # 设置语言为中文
-  logo: assets/logo.png # 网站左上角的Logo图片路径
-  favicon: assets/favicon.ico # 浏览器标签页的小图标路径
+  favicon: assests/open-book.ico # 浏览器标签页的小图标路径
   palette:
     # 日间模式
     - scheme: default
@@ -78,7 +77,7 @@ theme:
 
   # 图标配置
   icon:
-    repo: fontawesome/brands/github # 仓库图标（支持 FontAwesome 或 Material 图标）
+     repo: fontawesome/brands/github # 仓库图标（支持 FontAwesome 或 Material 图标）
     # logo: material/library # 自定义Logo图标（如果不使用图片）
     # admonition: # 自定义提示框图标
     #   note: material/note
