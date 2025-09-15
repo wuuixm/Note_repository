@@ -12,13 +12,11 @@
         <meta name="author" content="wuuixm">
       
       
-        <link rel="canonical" href="https://example.com/UV/">
+        <link rel="canonical" href="https://example.com/Git/">
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="../Github%20Desktop/">
       
-      
-        <link rel="next" href="../Github%20Desktop/">
       
       
       <link rel="icon" href="../assests/open-book.ico">
@@ -26,7 +24,7 @@
     
     
       
-        <title>Python虚拟环境uv使用教程 - Note_Share</title>
+        <title>CLI形式git使用教程 - Note_Share</title>
       
     
     
@@ -116,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Python虚拟环境uv使用教程
+              CLI形式git使用教程
             
           </span>
         </div>
@@ -283,6 +281,50 @@
       
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../UV/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Python虚拟环境uv使用教程
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Github%20Desktop/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Github Desktop使用教程
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -298,7 +340,7 @@
   
   
   <span class="md-ellipsis">
-    Python虚拟环境uv使用教程
+    CLI形式git使用教程
     
   </span>
   
@@ -311,7 +353,7 @@
   
   
   <span class="md-ellipsis">
-    Python虚拟环境uv使用教程
+    CLI形式git使用教程
     
   </span>
   
@@ -352,7 +394,25 @@
         <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
-      使用
+      配置
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      初始化
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      常用操作
     </span>
   </a>
   
@@ -362,50 +422,6 @@
   
 </nav>
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Github%20Desktop/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Github Desktop使用教程
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Git/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    CLI形式git使用教程
-    
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -455,7 +471,25 @@
         <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
-      使用
+      配置
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      初始化
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      常用操作
     </span>
   </a>
   
@@ -480,70 +514,131 @@
   
 
 
-  <h1>Python虚拟环境uv使用教程</h1>
+  <h1>CLI形式git使用教程</h1>
 
-<h4 id="uv">UV 的下载及常见使用<a class="headerlink" href="#uv" title="Permanent link">&para;</a></h4>
+<h4 id="cli-git">使用 cli 形式 git 完成常用操作<a class="headerlink" href="#cli-git" title="Permanent link">&para;</a></h4>
 <hr />
-<h5 id="tags"><strong>tags:</strong> #软件教程<a class="headerlink" href="#tags" title="Permanent link">&para;</a></h5>
-<h5 id="2025-09-6"><strong>2025-09-6</strong><a class="headerlink" href="#2025-09-6" title="Permanent link">&para;</a></h5>
+<h5 id="tags"><strong>tags:</strong>  #软件教程<a class="headerlink" href="#tags" title="Permanent link">&para;</a></h5>
+<h5 id="2025-09-15"><strong>2025-09-15</strong><a class="headerlink" href="#2025-09-15" title="Permanent link">&para;</a></h5>
 <hr />
-<h2 id="_1"><strong>安装包下载</strong><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="https://github.com/astral-sh/uv"><strong>UV下载地址</strong></a></li>
-<li>以下以 windows 为例</li>
-</ul>
+<h2 id="_1">安装包下载<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p><a href="https://git-scm.com/downloads/win">点击跳转下载界面</a></p>
 <h2 id="_2">安装步骤<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
 <ul>
-<li>下载对应的压缩包</li>
-<li>解压到自定义文件夹</li>
-<li>将该文件夹添加到环境变量 path 中</li>
-<li>验证安装
-<div class="highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>uv --version
-</span></code></pre></div></li>
+<li>安装步骤非常多，具体下载选项参考下文<blockquote>
+<p>https://blog.csdn.net/mukes/article/details/115693833</p>
+</blockquote>
+</li>
 </ul>
-<h2 id="_3">使用<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<h2 id="_3">配置<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>初始化项目（必须）</strong>
-<div class="highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>// 该命令会使用pyproject.toml用于管理依赖，而非传统re文件
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>uv init
+<li>设置 git 代理
+<div class="highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>// 设置http，https的代理，具体端口根据自己的机器设置
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>git config --global http.proxy http://127.0.0.1:7897
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>git config --global https.proxy https://127.0.0.1:7897
 </span></code></pre></div></li>
-<li><strong>创建虚拟环境</strong>
-<div class="highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>//uv venv [自定义保存目录，默认为当前cd目录] [python版本]
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>uv venv D:\Envs\myenv --python 3.11
-</span></code></pre></div></li>
-<li><strong>删除虚拟环境</strong>
-  无指令，直接删除 uv 所在文件夹即可</li>
-<li><strong>包下载指令</strong>
-<div class="highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>//与pip区分，防止未激活环境时下载包导致全局污染  
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>uv pip install [package]  
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>//自动添加包到dependencies中，特性同上
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>uv add [package] [自定义分组，空为生产依赖，参数--dev为开发依赖]
-</span></code></pre></div></li>
-<li><strong>包运行指令</strong>
-<div class="highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>//uv安装的包不会自动注册全局，必须通过uv进行调用
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>uv run [包指令]
-</span></code></pre></div></li>
-<li><strong>包删除指令</strong>
-<div class="highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>uv remove [package]
-</span></code></pre></div></li>
-<li><strong>环境同步指令</strong>
-<div class="highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>//自动下载pyproject.toml中的依赖包
-</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>uv sync
-</span></code></pre></div></li>
-<li><strong>其余指令</strong>
-<div class="highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>//列出uv支持的python 版本
-</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>uv python list
-</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>
-</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>//下载对应版本的解释器
-</span><span id="__span-7-5"><a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a>uv python install [python-version]
-</span><span id="__span-7-6"><a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a>
-</span><span id="__span-7-7"><a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a>//指定python版本运行脚本
-</span><span id="__span-7-8"><a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a>uv run -p [version] [py script]
-</span><span id="__span-7-9"><a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a>
-</span><span id="__span-7-10"><a id="__codelineno-7-10" name="__codelineno-7-10" href="#__codelineno-7-10"></a>//列出依赖树
-</span><span id="__span-7-11"><a id="__codelineno-7-11" name="__codelineno-7-11" href="#__codelineno-7-11"></a>uv tree  
+<li>开启凭证助手，需要 <strong>特别注意</strong>，github 目前的精细度令牌没有合适的凭证管理器支撑，助手仍然只会使用上次缓存的令牌匹配所有请求，推荐仍然使用经典令牌
+<div class="highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>// 使用gcm作为凭证助手
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>git config --global credentials.helper manager-core
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>// 若是没有gcm也可以使用store作为凭证助手，但是令牌会明文存于~/.git-credentials文件
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>git config --global credentials.helper store
 </span></code></pre></div></li>
 </ul>
+<h2 id="_4">初始化<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<p><strong>1. 使用 github 初始化</strong>
+- 此种方式最简单，稳定，常用，避免双端分支不同问题，且经典令牌和精细令牌都可使用，为最推荐方式
+- 在 github 中创建仓库
+- 直接克隆到本地
+<div class="highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>// 在对应文件夹打开或是cd到对应文件夹，打开git bash
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>git clone https://github.com/[用户名]/[仓库名].git
+</span></code></pre></div>
+<strong>2. 从本地初始化仓库</strong>
+- 此种方式复杂且容易出现问题，还需要处理跟踪关系，分支名称不同问题，只推荐使用 <code>github desktop</code> 时使用此种方式
+- 创建仓库
+<div class="highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>//仍然需要在github上创建仓库
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>// 选择一个文件夹作为本地仓库，打开git bash
+</span></code></pre></div>
+- 首次提交
+<div class="highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>// 初始化仓库
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>git init
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>// 未连接仓库时可以执行暂存与提交
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>echo &quot;create a submission&quot; &gt; README.md
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>git add .
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>git commit -m &quot;this is the first submission&quot;
+</span></code></pre></div>
+- 连接仓库
+<div class="highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>// 连接到远程仓库
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>git remote add origin https://github.com/[用户名]/[仓库名].git
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>// 首次跟踪，当前github使用main作为默认分支，旧版git默认创建的是master本地分支，使用以下命令处理
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>git push -u origin master:main
+</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>
+</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a>//新版git可以不需要处理，直接首次跟踪
+</span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a>git push -u origin main
+</span></code></pre></div></p>
+<h2 id="_5">常用操作<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<p><strong>1. 基础指令</strong>
+<div class="highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>// 暂存指令
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>git add [需要暂存的文件，使用.可以匹配所有修改]
+</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>
+</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>// 查看指令
+</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>git status
+</span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>
+</span><span id="__span-6-7"><a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>// 提交指令
+</span><span id="__span-6-8"><a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a>git commit -m &quot;[改次提交的注释]&quot;
+</span><span id="__span-6-9"><a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a>
+</span><span id="__span-6-10"><a id="__codelineno-6-10" name="__codelineno-6-10" href="#__codelineno-6-10"></a>// 拉取指令
+</span><span id="__span-6-11"><a id="__codelineno-6-11" name="__codelineno-6-11" href="#__codelineno-6-11"></a>git pull
+</span><span id="__span-6-12"><a id="__codelineno-6-12" name="__codelineno-6-12" href="#__codelineno-6-12"></a>
+</span><span id="__span-6-13"><a id="__codelineno-6-13" name="__codelineno-6-13" href="#__codelineno-6-13"></a>// 推送指令
+</span><span id="__span-6-14"><a id="__codelineno-6-14" name="__codelineno-6-14" href="#__codelineno-6-14"></a>git push origin master:main
+</span><span id="__span-6-15"><a id="__codelineno-6-15" name="__codelineno-6-15" href="#__codelineno-6-15"></a>
+</span><span id="__span-6-16"><a id="__codelineno-6-16" name="__codelineno-6-16" href="#__codelineno-6-16"></a>// 创建新分支
+</span><span id="__span-6-17"><a id="__codelineno-6-17" name="__codelineno-6-17" href="#__codelineno-6-17"></a>git branch [分支名称]
+</span></code></pre></div>
+<strong>2. 常用指令</strong>
+<div class="highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>// 查看提交历史
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>git log
+</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>
+</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>// 查看某个文件的提交历史
+</span><span id="__span-7-5"><a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a>git log --filename
+</span><span id="__span-7-6"><a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a>
+</span><span id="__span-7-7"><a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a>// 查看所有分支
+</span><span id="__span-7-8"><a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a>git branch -a
+</span><span id="__span-7-9"><a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a>
+</span><span id="__span-7-10"><a id="__codelineno-7-10" name="__codelineno-7-10" href="#__codelineno-7-10"></a>// 切换分支
+</span><span id="__span-7-11"><a id="__codelineno-7-11" name="__codelineno-7-11" href="#__codelineno-7-11"></a>git switch [分支名称]
+</span><span id="__span-7-12"><a id="__codelineno-7-12" name="__codelineno-7-12" href="#__codelineno-7-12"></a>
+</span><span id="__span-7-13"><a id="__codelineno-7-13" name="__codelineno-7-13" href="#__codelineno-7-13"></a>// 合并分支，需要先切换到需要合并的分支
+</span><span id="__span-7-14"><a id="__codelineno-7-14" name="__codelineno-7-14" href="#__codelineno-7-14"></a>git merge [分支名称]
+</span><span id="__span-7-15"><a id="__codelineno-7-15" name="__codelineno-7-15" href="#__codelineno-7-15"></a>
+</span><span id="__span-7-16"><a id="__codelineno-7-16" name="__codelineno-7-16" href="#__codelineno-7-16"></a>// 删除分支
+</span><span id="__span-7-17"><a id="__codelineno-7-17" name="__codelineno-7-17" href="#__codelineno-7-17"></a>git branch -d [分支名称]   # 删除本地分支
+</span><span id="__span-7-18"><a id="__codelineno-7-18" name="__codelineno-7-18" href="#__codelineno-7-18"></a>git push origin --delete [分支名称]   # 删除远程分支
+</span></code></pre></div>
+<strong>3. 回溯项目</strong>
+- 仅查看
+<div class="highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>// 使用git log查看提交历史的哈希值
+</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>
+</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>// 回溯到指定状态
+</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a>git checkout [哈希值]
+</span><span id="__span-8-5"><a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a>
+</span><span id="__span-8-6"><a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a>// 回到分支
+</span><span id="__span-8-7"><a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a>git checkout [分支名称]
+</span></code></pre></div>
+- 从指定节点创建分支
+<div class="highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>// 获取哈希值
+</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>
+</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>// 回溯并创建分支
+</span><span id="__span-9-4"><a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a>git checkout -b [新分支] [哈希值]
+</span></code></pre></div>
+- 完全回溯
+<div class="highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>// 获取哈希值
+</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a>
+</span><span id="__span-10-3"><a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a>// 重置项目到指定节点
+</span><span id="__span-10-4"><a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a>git reset --hard [哈希值]
+</span></code></pre></div></p>
 
 
 
