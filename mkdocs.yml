@@ -101,6 +101,7 @@ nav:
   - '首页': 'index.md'
   - 'Python虚拟环境uv使用教程': 'UV.md'
   - 'Github Desktop使用教程': 'Github Desktop.md'
+  - 'CLI形式git使用教程': 'Git.md'
 
 # ------------------
 # Markdown 扩展
