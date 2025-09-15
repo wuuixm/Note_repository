@@ -545,20 +545,25 @@
 </span></code></pre></div></li>
 </ul>
 <h2 id="_4">初始化<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
-<p><strong>1. 使用 github 初始化</strong>
-- 此种方式最简单，稳定，常用，避免双端分支不同问题，且经典令牌和精细令牌都可使用，为最推荐方式
-- 在 github 中创建仓库
-- 直接克隆到本地
+<p><strong>1. 使用 github 初始化</strong></p>
+<ul>
+<li>此种方式最简单，稳定，常用，避免双端分支不同问题，且经典令牌和精细令牌都可使用，为最推荐方式</li>
+<li>在 github 中创建仓库</li>
+<li>
+<p>直接克隆到本地
 <div class="highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>// 在对应文件夹打开或是cd到对应文件夹，打开git bash
 </span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>git clone https://github.com/[用户名]/[仓库名].git
 </span></code></pre></div>
-<strong>2. 从本地初始化仓库</strong>
-- 此种方式复杂且容易出现问题，还需要处理跟踪关系，分支名称不同问题，只推荐使用 <code>github desktop</code> 时使用此种方式
-- 创建仓库
+<strong>2. 从本地初始化仓库</strong></p>
+</li>
+<li>
+<p>此种方式复杂且容易出现问题，还需要处理跟踪关系，分支名称不同问题，只推荐使用 <code>github desktop</code> 时使用此种方式</p>
+</li>
+<li>创建仓库
 <div class="highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>//仍然需要在github上创建仓库
 </span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>// 选择一个文件夹作为本地仓库，打开git bash
-</span></code></pre></div>
-- 首次提交
+</span></code></pre></div></li>
+<li>首次提交
 <div class="highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>// 初始化仓库
 </span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>git init
 </span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>
@@ -566,8 +571,8 @@
 </span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>echo &quot;create a submission&quot; &gt; README.md
 </span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>git add .
 </span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>git commit -m &quot;this is the first submission&quot;
-</span></code></pre></div>
-- 连接仓库
+</span></code></pre></div></li>
+<li>连接仓库
 <div class="highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>// 连接到远程仓库
 </span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>git remote add origin https://github.com/[用户名]/[仓库名].git
 </span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>
@@ -576,10 +581,11 @@
 </span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>
 </span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a>//新版git可以不需要处理，直接首次跟踪
 </span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a>git push -u origin main
-</span></code></pre></div></p>
+</span></code></pre></div></li>
+</ul>
 <h2 id="_5">常用操作<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
-<p><strong>1. 基础指令</strong>
-<div class="highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>// 暂存指令
+<p><strong>1. 基础指令</strong></p>
+<p><div class="highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>// 暂存指令
 </span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>git add [需要暂存的文件，使用.可以匹配所有修改]
 </span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>
 </span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>// 查看指令
@@ -597,8 +603,8 @@
 </span><span id="__span-6-16"><a id="__codelineno-6-16" name="__codelineno-6-16" href="#__codelineno-6-16"></a>// 创建新分支
 </span><span id="__span-6-17"><a id="__codelineno-6-17" name="__codelineno-6-17" href="#__codelineno-6-17"></a>git branch [分支名称]
 </span></code></pre></div>
-<strong>2. 常用指令</strong>
-<div class="highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>// 查看提交历史
+<strong>2. 常用指令</strong></p>
+<p><div class="highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>// 查看提交历史
 </span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>git log
 </span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>
 </span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>// 查看某个文件的提交历史
@@ -617,8 +623,9 @@
 </span><span id="__span-7-17"><a id="__codelineno-7-17" name="__codelineno-7-17" href="#__codelineno-7-17"></a>git branch -d [分支名称]   # 删除本地分支
 </span><span id="__span-7-18"><a id="__codelineno-7-18" name="__codelineno-7-18" href="#__codelineno-7-18"></a>git push origin --delete [分支名称]   # 删除远程分支
 </span></code></pre></div>
-<strong>3. 回溯项目</strong>
-- 仅查看
+<strong>3. 回溯项目</strong></p>
+<ul>
+<li>仅查看
 <div class="highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>// 使用git log查看提交历史的哈希值
 </span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>
 </span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>// 回溯到指定状态
@@ -626,19 +633,20 @@
 </span><span id="__span-8-5"><a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a>
 </span><span id="__span-8-6"><a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a>// 回到分支
 </span><span id="__span-8-7"><a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a>git checkout [分支名称]
-</span></code></pre></div>
-- 从指定节点创建分支
+</span></code></pre></div></li>
+<li>从指定节点创建分支
 <div class="highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>// 获取哈希值
 </span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>
 </span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>// 回溯并创建分支
 </span><span id="__span-9-4"><a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a>git checkout -b [新分支] [哈希值]
-</span></code></pre></div>
-- 完全回溯
+</span></code></pre></div></li>
+<li>完全回溯
 <div class="highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>// 获取哈希值
 </span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a>
 </span><span id="__span-10-3"><a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a>// 重置项目到指定节点
 </span><span id="__span-10-4"><a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a>git reset --hard [哈希值]
-</span></code></pre></div></p>
+</span></code></pre></div></li>
+</ul>
 
 
 
