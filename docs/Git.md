@@ -28,7 +28,9 @@ git config --global credentials.helper store
 ```
 
 ## 初始化
+
 **1. 使用 github 初始化**
+
 - 此种方式最简单，稳定，常用，避免双端分支不同问题，且经典令牌和精细令牌都可使用，为最推荐方式
 - 在 github 中创建仓库
 - 直接克隆到本地
@@ -37,6 +39,7 @@ git config --global credentials.helper store
 git clone https://github.com/[用户名]/[仓库名].git
 ```
 **2. 从本地初始化仓库**
+
 - 此种方式复杂且容易出现问题，还需要处理跟踪关系，分支名称不同问题，只推荐使用 `github desktop` 时使用此种方式
 - 创建仓库
 ```
@@ -66,7 +69,9 @@ git push -u origin main
 ```
 
 ## 常用操作
+
 **1. 基础指令**
+
 ```
 // 暂存指令
 git add [需要暂存的文件，使用.可以匹配所有修改]
@@ -87,6 +92,7 @@ git push origin master:main
 git branch [分支名称]
 ```
 **2. 常用指令**
+
 ```
 // 查看提交历史
 git log
@@ -108,6 +114,7 @@ git branch -d [分支名称]   # 删除本地分支
 git push origin --delete [分支名称]   # 删除远程分支
 ```
 **3. 回溯项目**
+
 - 仅查看
 ```
 // 使用git log查看提交历史的哈希值
